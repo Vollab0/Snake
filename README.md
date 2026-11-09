@@ -5,6 +5,8 @@ A classic Snake game in plain JavaScript, HTML and CSS — no framework, no canv
 
 **▶ Play it in your browser: <https://vollab0.github.io/snake/>** (desktop, arrow keys)
 
+<img src="docs/screenshot.png" alt="Snake game: blue snake heading towards an apple on a checkered green board" width="500">
+
 Made in April 2025 for the *Digital Foundations* course during my exchange semester at SolBridge
 International School of Business (South Korea). All the sprites (snake head, tail, apple) are my own.
 `HelperLibrary.js` (grid helpers `ClearGrid`, `AddBlock`, `ChangeBlockColor`) was provided by the course,
