@@ -3,7 +3,7 @@
 A classic Snake game in plain JavaScript, HTML and CSS — no framework, no canvas: the board is a
 20 × 20 grid of `<div>` cells redrawn on every tick.
 
-**▶ Play it in your browser: <https://vollab0.github.io/snake/>** (desktop, arrow keys)
+**▶ Play it in your browser: <https://vollab0.github.io/Snake/>** (desktop, arrow keys)
 
 <img src="docs/screenshot.png" alt="Snake game: blue snake heading towards an apple on a checkered green board" width="500">
 
