@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.grid {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #578a34;
+    margin: 0 auto;
+    filter: brightness(50%);
+    position: relative;
+    z-index: 1;
+  }
+
+.grid div {
+    width: 40px;
+    height: 40px;
+	  float: left;
+  }
+  
+.buttonGroup
+{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+}
+
+.blue {
+    background: #5175eb;
+	}
+  
+.red {
+	background: red;
+	}
+
+.green {
+    background: #578a34;
+	}
+  
+.white {
+	  background: white;
+	}
+
+.darkgreen {
+    background: #578a34;
+  }
+
+.lightgreen1 {
+    background: #a8d13c;
+  }
+
+.lightgreen2 {
+    background: #b0d746;
+  }
+
+.appleLightgreen1 {
+  background-image: url('assets/apple_lightgreen1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.appleLightgreen2 {
+  background-image: url('assets/apple_lightgreen2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.snakeHeadLightgreen1 {
+  background-image: url('assets/snakeHeadLightgreen1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.snakeHeadLightgreen2 {
+  background-image: url('assets/snakeHeadLightgreen2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.snakeTailLightgreen1 {
+  background-image: url('assets/snakeTailLightgreen1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.snakeTailLightgreen2 {
+  background-image: url('assets/snakeTailLightgreen2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.imgDiv {
+  width: 100%;
+  height: 400px;
+  background-image: url('assets/gameover.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.menuBtn {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  border: none;
+  background-color: #378470;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.menuBtn:hover {
+  background-color: #1f182d;
+  height: 90px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
